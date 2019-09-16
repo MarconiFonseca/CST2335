@@ -77,7 +77,8 @@
 
 
         android:hint="@string/edittext"
-        android:inputType="textPersonName|textCapWords" />
+        android:inputType="textPersonName|textCapWords"
+        android:importantForAutofill="no" />
 
 
 </GridLayout>
