@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentTop="true"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="@string/look"
+
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:text="@string/ClickHere" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_toEndOf="@id/button2"
+        android:text="@string/checkbox" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="208dp"
+        android:layout_height="103dp"
+        android:layout_below="@id/button2"
+        android:contentDescription="@string/flags"
+        app:srcCompat="@drawable/flag"
+
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBox"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@id/imageButton2"
+        android:text="@string/Switch" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@id/switch1"
+        android:layout_marginTop="70dp"
+        android:hint="@string/edittext"
+        android:inputType="textPersonName|textCapWords" />
+
+</RelativeLayout>
