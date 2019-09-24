@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidLabs</string>
+    <string name="ClickHere"> Sou um botao </string>
+    <string name="look"> Olhe meu GUI: </string>
+    <string name="checkbox"> Verifique isto!!</string>
+    <string name="flags"> </string>
+    <string name="Switch"> Liga/Desliga </string>
+    <string name="edittext">Digite Aqui</string>
+    <string name="edittext1"> Digite seu password </string>
+    <string name="textView3"> Digite seu password</string>
+    <string name="textView0">Seu perfil</string>
+    <string name="yourName" > Enter Your Name</string>
+    <string name="EnterYourName">Enter Your Name</string>
+    <string name="YourEmail">Your Email:</string>
+    <string name="EnterYourEmail">Entre seu Email</string>
+    <string name="YourPic">Sua foto</string>
+    <string name="Image"> </string>
+    <string name="lastTex"> Click the button above to take picture</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

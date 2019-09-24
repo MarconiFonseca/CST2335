@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentTop="true"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/textView0"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/yourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView0"
+
+        android:text="@string/yourName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/EnterYourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/EnterYourName"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/YourEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterYourName"
+        android:layout_marginTop="10dp"
+        android:text="@string/YourEmail"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/EnterYourEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/YourEmail"
+        android:layout_marginTop="10dp"
+        android:hint="@string/EnterYourEmail"
+
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/YourPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterYourEmail"
+        android:layout_marginTop="10dp"
+        android:text="@string/YourPic"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_below="@+id/YourPic"
+        android:layout_marginTop="-1dp"
+        android:clickable="true"
+        android:contentDescription="@string/Image"
+        android:focusable="true"
+        android:onClick="sendMessage"
+        tools:src="@android:drawable/picture_frame"
+        tools:srcCompat="@android:drawable/picture_frame" />
+
+    <TextView
+        android:id="@+id/lastTex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageButton"
+        android:text="@string/YourPic"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

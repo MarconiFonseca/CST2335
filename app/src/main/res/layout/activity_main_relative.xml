@@ -17,8 +17,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="199dp"
+        android:layout_height="37dp"
         android:layout_below="@id/textView2"
         android:text="@string/ClickHere" />
 
